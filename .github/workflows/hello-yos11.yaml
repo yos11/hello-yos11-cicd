@@ -1,0 +1,10 @@
+name: "hello yos11"
+
+on: [push]
+
+jobs:
+    sample:
+        name: hello yos11 job
+        runs-on: ubuntu latest
+        steps:
+            - run: echo "hello yos11 !"
